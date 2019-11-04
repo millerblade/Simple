@@ -1,0 +1,93 @@
+/***base styles***/
+body{
+  font-family: 'Montserrat Subrayada', 400, sans-serif;
+  font-family: 'Open-sans-light', sans-serif;
+}
+/***grid***/
+img{
+  max-width: 100%;
+  height: auto;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+/****header****/
+
+.logo{
+width: 300px;
+padding-top: 20px;
+padding-left: 400px;
+padding-right: 400px;
+margin: 0 auto;
+}
+.span{
+    width: 400px;
+    padding-left: 450px;
+    padding-right: 400px;
+
+    }
+h1{
+    font-size: 60px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    padding-left: 20px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+.span h2{
+  font-size: 25px;
+  font-family: 'Open-sans-light', sans-serif;
+  padding-left: 23px;
+  letter-spacing: 5px;
+  margin-top: 10px;
+}
+.nav-bar{
+    padding-left: 0;
+    width: 1180px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
+ul{
+  list-style-type: none;
+  text-transform:  uppercase;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+li{
+  display:inline-block;
+  padding-right: 50px;
+  text-decoration-line: underline;
+  }
+li{
+  font-size: 18px;
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+li span{
+color: #ff5c5c;
+}
+.border-top{
+  border-style: solid;
+  border-color: #ffbd4a;
+  border-left: none;
+  border-right: none;
+}
+article{
+  width: 800px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+p{
+  font-size: 16px;
+  font-family: 'Open-sans', sans-serif;
+}
+h3{
+  font-size: 19px;
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+.full-width footer p {
+  letter-spacing: 5px;
+}
